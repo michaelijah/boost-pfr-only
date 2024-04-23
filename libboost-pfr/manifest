@@ -1,0 +1,15 @@
+: 1
+name: libboost-pfr
+version: 0.1.0-a.0.z
+language: c++
+project: boost-pfr-only
+summary: Basic reflection  for user defined types
+license: BSL-1.0 ; Boost Software License 1.0.
+topics: C++, Boost
+description-file: README.md
+url: https://github.com/boostorg/pfr
+email: michaelijah@gmail.com
+package-url: https://github.com/michaelijah/boost-pfr-only
+#build-error-email: michaelijah@gmail.com
+depends: * build2 >= 0.16.0
+depends: * bpkg >= 0.16.0
